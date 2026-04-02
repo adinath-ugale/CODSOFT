@@ -1,47 +1,27 @@
 # CODSOFT
-Python Internship Tasks
+# CODSOFT Python Internship Projects
 
-## Task 1 - To-Do List App 
-This is a  simple To-Do List Application Built using Python
-##Features 
--Aadd tasks
--View Tasks
-- Delete Tasks
-#How to run
-  Python todo.py
-  
-## Task2 - Calculator App
-A simple calculator built using python.
-### Feature
--Addition
-- Subtraction
-- division
-- Multification
+This repository contains all tasks completed during my CodSoft Python Internship.
 
-## Task 3 - Password Generator
-A Python - Based password generator that
-create strong and random passwords.
+## Tasks Completed
 
-#Features
--Cutom lenght
-- Option to include letters, Numbers, Symbols
-- Strong password generation
+###  Task 1 - To-Do List
+- Add, View, Delete tasks
 
-## Task 4 - Rock Paper Scissors Game
-A fun Python game where the user plays 
-against the computer.
-### Features
--User Vs Computer gameplay
--Random Computer Choice
--Score Tracking
+### Task 2 - Calculator
+- Perform basic arithmetic operations
 
-## Task 5 - Contact Book
-A Python-Based contact management system.
-###Features
--Add contacts 
--View Contacts
--Search contacts
--Update Contactt
--Delete contact
+###  Task 3 - Password Generator
+- Generate strong random passwords
 
--Multiple rounds
+### Task 4 - Rock Paper Scissors
+- Play game against computer with score tracking
+
+###Task 5 - Contact Book
+- Add, Search, Update, Delete contacts
+
+##  Tech Used
+- Python
+
+## Author
+Adinath Ugale
