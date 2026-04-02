@@ -21,15 +21,16 @@ while True:
     if user == computer:
         print("It's a tie!")
 
+    #Oprations Game paly
     elif (user == "rock" and computer == "scissors") or \
          (user == "scissors" and computer == "paper") or \
           (user == "paper" and computer == "rock") or \
          (user == "star" and computer in [ "rock","scissors"]):
-        print("You win! 🎉")
+        print("You win! ")
         user_score += 1
 
     else:
-        print("Computer wins! 🤖")
+        print("Computer wins! ")
         computer_score += 1
 
     print(f"Score -> You: {user_score} | Computer: {computer_score}")
