@@ -17,3 +17,12 @@ A simple calculator built using python.
 - Subtraction
 - division
 - Multification
+
+## Task 3 - Password Generator
+A Python - Based password generator that
+create strong and random passwords.
+
+#Features
+-Cutom lenght
+- Option to include letters, Numbers, Symbols
+- Strong password generation
