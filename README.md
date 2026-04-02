@@ -1,7 +1,7 @@
 # CODSOFT
 Python Internship Tasks
 
-# Task 1 - To-Do List App 
+## Task 1 - To-Do List App 
 This is a  simple To-Do List Application Built using Python
 ##Features 
 -Aadd tasks
@@ -26,3 +26,12 @@ create strong and random passwords.
 -Cutom lenght
 - Option to include letters, Numbers, Symbols
 - Strong password generation
+
+## Task 4 - Rock Paper Scissors Game
+A fun Python game where the user plays 
+against the computer.
+### Features
+-User Vs Computer gameplay
+-Random Computer Choice
+-Score Tracking
+-Multiple rounds
