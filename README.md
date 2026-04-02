@@ -34,4 +34,14 @@ against the computer.
 -User Vs Computer gameplay
 -Random Computer Choice
 -Score Tracking
+
+## Task 5 - Contact Book
+A Python-Based contact management system.
+###Features
+-Add contacts 
+-View Contacts
+-Search contacts
+-Update Contactt
+-Delete contact
+
 -Multiple rounds
