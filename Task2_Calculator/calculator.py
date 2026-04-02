@@ -1,30 +1,40 @@
-print("_ _ _ SIMPLE CALCULATOR _ _ _ ")
+while True:
+    print("\n_ - _ - SIMPLE CALCULATOR - _ - _")
 
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
+    try:
+        num1 = float(input("Enter first number: "))
+        num2 = float(input("Enter second number: "))
+    except:
+        print("Invalid input! Please enter numbers.")
+        continue
 
-print("Choose operation to calculate:")
-print("1. Addition (+)")
-print("2. Subtraction (-)")
-print("3. Division (/)")
-print("4. Multiplication (*)")
+    print("\nChoose operation:")
+    print("1. Addition (+)")
+    print("2. Subtraction (-)")
+    print("3. Multiplication (*)")
+    print("4. Division (/)")
 
-choice = input("Enter choice (1/2/3/4): ")
+    choice = input("Enter choice (1/2/3/4): ")
 
-if choice == '1':
-    print("Result:", num1 + num2)
+    if choice == '1':
+        print("Result:", num1 + num2)
 
-elif choice == '2':
-    print("Result:", num1 - num2)
+    elif choice == '2':
+        print("Result:", num1 - num2)
 
-elif choice == '3':
-    if num2 != 0:
-        print("Result:", num1 / num2)
+    elif choice == '3':
+        print("Result:", num1 * num2)
+
+    elif choice == '4':
+        if num2 != 0:
+            print("Result:", num1 / num2)
+        else:
+            print("Error! Division by zero")
+
     else:
-        print("Error! Division by zero")
+        print("Invalid choice")
 
-elif choice == '4':
-    print("Result:", num1 * num2)
-
-else:
-    print("Invalid Choice")
+    again = input("\nDo you want to calculate again? (yes/no): ").lower()
+    if again != 'yes':
+        print("Calculator closed. Thank you Visit in calculator!")
+        break
